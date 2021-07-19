@@ -5,7 +5,11 @@
  * Description: Simple PHP class to be used to interact with databases from RestDB, RestDB.io
  * http://twitter.com/josephtinsley
 */
-
+$test = new RestDB();
+$collectionName = "traderecord";
+$obj =  array("symbol" => "chg");
+$return = $test->selectDocument($collectionName, $obj);
+print_r($return);
 class RestDB {
 
     CONST APIDB = 'ggles-3c7c';
