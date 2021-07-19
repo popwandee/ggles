@@ -5,6 +5,7 @@
  * Description: Simple PHP class to be used to interact with databases from RestDB, RestDB.io
  * http://twitter.com/josephtinsley
 */
+echo "test RestDB is <br>";
 $test = new RestDB();
 $collectionName = "traderecord";
 $obj =  array("symbol" => "chg");
