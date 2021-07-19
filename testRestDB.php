@@ -13,8 +13,8 @@ $return = $test->selectDocument($collectionName, $obj);
 print_r($return);
 class RestDB {
 
-    CONST APIDB = 'ggles-3c7c';
-    CONST APIKEY = '61b22a7457ccd5e9ec1d8a6a831f47702e756';
+    CONST APIDB = '';
+    CONST APIKEY = '';
 
     private $apiurl = '';
 
